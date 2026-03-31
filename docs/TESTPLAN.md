@@ -11,6 +11,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ## Test Cases
 
 ### TC001 - Verify initial balance display
+**Test Case ID:** TC001
+
 **Description:** Validates that the application starts with the correct initial balance.
 
 **Pre-conditions:** Application is compiled and ready to run.
@@ -30,6 +32,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC002 - Verify credit operation with valid amount
+**Test Case ID:** TC002
+
 **Description:** Tests that credit operations work correctly with positive amounts.
 
 **Pre-conditions:** Application is running with initial balance.
@@ -50,6 +54,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC003 - Verify debit operation with sufficient funds
+**Test Case ID:** TC003
+
 **Description:** Tests successful debit when account has enough funds.
 
 **Pre-conditions:** Application is running with balance >= debit amount.
@@ -70,6 +76,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC004 - Verify debit operation with insufficient funds
+**Test Case ID:** TC004
+
 **Description:** Tests that debit operations are rejected when insufficient funds exist.
 
 **Pre-conditions:** Application is running with balance < debit amount.
@@ -89,6 +97,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC005 - Verify multiple sequential operations
+**Test Case ID:** TC005
+
 **Description:** Tests that multiple operations work correctly in sequence.
 
 **Pre-conditions:** Application is running.
@@ -110,6 +120,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC006 - Verify balance persistence across operations
+**Test Case ID:** TC006
+
 **Description:** Tests that balance changes persist throughout the session.
 
 **Pre-conditions:** Application is running in same session.
@@ -130,6 +142,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC007 - Verify credit operation with zero amount
+**Test Case ID:** TC007
+
 **Description:** Tests edge case of crediting zero amount.
 
 **Pre-conditions:** Application is running.
@@ -150,6 +164,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC008 - Verify credit operation with negative amount
+**Test Case ID:** TC008
+
 **Description:** Tests input validation for negative credit amounts.
 
 **Pre-conditions:** Application is running.
@@ -170,6 +186,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC009 - Verify debit operation with zero amount
+**Test Case ID:** TC009
+
 **Description:** Tests edge case of debiting zero amount.
 
 **Pre-conditions:** Application is running.
@@ -190,6 +208,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC010 - Verify debit operation with negative amount
+**Test Case ID:** TC010
+
 **Description:** Tests input validation for negative debit amounts.
 
 **Pre-conditions:** Application is running.
@@ -210,6 +230,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC011 - Verify application exit functionality
+**Test Case ID:** TC011
+
 **Description:** Tests that the application exits properly.
 
 **Pre-conditions:** Application is running.
@@ -228,6 +250,8 @@ This test plan covers the business logic and functionality of the COBOL student 
 ---
 
 ### TC012 - Verify menu display and navigation
+**Test Case ID:** TC012
+
 **Description:** Tests the user interface and menu handling.
 
 **Pre-conditions:** Application is running.
